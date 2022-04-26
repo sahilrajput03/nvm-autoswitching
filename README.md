@@ -1,5 +1,7 @@
 # README
 
+Inspiration: [here](https://stackoverflow.com/questions/57110542/how-to-write-a-nvmrc-file-which-automatically-change-node-version)
+
 **Creating a `.nvmrc` file -**
 
 ```bash
