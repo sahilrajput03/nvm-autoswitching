@@ -1,6 +1,6 @@
 # README
 
-**Creating a working version of `.nvmrc` file -**
+**Creating a `.nvmrc` file -**
 
 ```bash
 node -v > .nvmrc
