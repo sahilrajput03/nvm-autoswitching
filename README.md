@@ -8,6 +8,7 @@ Inspiration: [here](https://stackoverflow.com/questions/57110542/how-to-write-a-
 
 ```bash
 nvm alias default 20.12.0
+nvm use default
 # Other versions 16.14.2, etc.
 ```
 
