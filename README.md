@@ -44,3 +44,21 @@ function cd {
 	nvmUse
 }
 ```
+
+## what is `engine-strict=true` in `.npmrc` file (ChatGPT)
+
+Setting `engine-strict=true` in Node.js enforces strict compatibility with the version specified in the engines field of your package.json file. Here’s how it works:
+
+Purpose: By default, the engines field in package.json specifies compatible Node.js and npm versions, but it doesn't prevent installation if there's a version mismatch. However, if you set `engine-strict=true`, it will make these specifications mandatory, meaning npm will throw an error if the Node.js or npm version doesn't match the specified versions.
+
+Use Case: This is useful for ensuring that your project is only run on compatible versions, reducing the risk of unexpected errors due to version differences.
+
+How to Set It: You can add this flag in your `.npmrc` file like this:
+
+`engine-strict=true`
+
+Or, you can set it as a one-time configuration by running:
+
+`npm config set engine-strict true`
+
+When enabled, if a user tries to install or run the project with an incompatible Node.js version, npm will prevent the installation.
