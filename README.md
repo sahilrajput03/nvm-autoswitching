@@ -28,7 +28,7 @@ nvm use default
 ## Creating a `.nvmrc` file
 node -v > .nvmrc
 
-## Switch to node version as mentioned in .nvmrc file in current working directory
+## ❤️ Switch to node version as mentioned in .nvmrc file in current working directory
 nvm use
 ```
 
