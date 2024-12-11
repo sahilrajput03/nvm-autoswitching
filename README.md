@@ -4,24 +4,32 @@ NVM: [Docs](https://github.com/nvm-sh/nvm)
 
 Inspiration: [here](https://stackoverflow.com/questions/57110542/how-to-write-a-nvmrc-file-which-automatically-change-node-version)
 
-## Install latest node version
+## Commands
 
 ```bash
+# Install latest node version
 nvm install node
-```
 
-## Set default version of nvm
 
-```bash
+
+# Some node versions I use
+# 16.14.2
+
+
+
+# Set default version of nvm
 nvm alias default 20.12.0
-# Other versions 16.14.2, etc.
+
+# Use defautl node version in the current shell session (i.e, 20.12.0 as we set in above line)
 nvm use default
-```
+
+
 
 ## Creating a `.nvmrc` file
-
-```bash
 node -v > .nvmrc
+
+## Switch to node version as mentioned in .nvmrc file in current working directory
+nvm use
 ```
 
 FYI: You can simply write 12 or 14 for corresonding node versions as well as I have done in this current demo.
