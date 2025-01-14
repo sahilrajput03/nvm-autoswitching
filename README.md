@@ -51,14 +51,13 @@ nvmUse () {
 		nvm use
 	fi
 }
-
+nvmUse
 function cd {
     # actually change the directory with all args passed to the function
     builtin cd "$@"
 
 	nvmUse
 }
-nvmUse
 ```
 
 ## what is `engine-strict=true` in `.npmrc` file (ChatGPT)
