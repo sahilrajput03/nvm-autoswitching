@@ -18,16 +18,15 @@ nvm install --lts
 nvm list
 
 # Some node versions I use
+# 22.13.0
+# 20.12.0
 # 16.14.2
 
 
 
 # Set default version of nvm
-nvm alias default 20.12.0
-
-# Use defautl node version in the current shell session (i.e, 20.12.0 as we set in above line)
-nvm use default
-
+nvm alias default v22.13.0	# 14 Jan 2025 (latest - using this on macos)
+# nvm alias default 20.12.0	# (older)
 
 
 ## Creating a `.nvmrc` file
@@ -35,6 +34,9 @@ node -v > .nvmrc
 
 ## ❤️ Switch to node version as mentioned in .nvmrc file in current working directory
 nvm use
+
+# Use defautl node version set in nvm (`check by nvm list | grep default`) in the current shell session
+nvm use default
 ```
 
 FYI: You can simply write 12 or 14 for corresonding node versions as well as I have done in this current demo.
