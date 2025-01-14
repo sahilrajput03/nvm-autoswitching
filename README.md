@@ -11,6 +11,9 @@ Inspiration: [here](https://stackoverflow.com/questions/57110542/how-to-write-a-
 nvm install node
 
 
+# Insatll node LTS (Long-term Support)
+nvm install --lts
+
 
 # Some node versions I use
 # 16.14.2
