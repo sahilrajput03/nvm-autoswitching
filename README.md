@@ -58,6 +58,7 @@ function cd {
 
 	nvmUse
 }
+nvmUse
 ```
 
 ## what is `engine-strict=true` in `.npmrc` file (ChatGPT)
