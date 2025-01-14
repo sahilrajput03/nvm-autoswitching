@@ -14,6 +14,8 @@ nvm install node
 # Insatll node LTS (Long-term Support)
 nvm install --lts
 
+# List of installed node version
+nvm list
 
 # Some node versions I use
 # 16.14.2
