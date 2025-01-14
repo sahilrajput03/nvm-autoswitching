@@ -45,7 +45,9 @@ FYI: You can simply write 12 or 14 for corresonding node versions as well as I h
 
 *Note: [Official documentation of NVM](https://github.com/nvm-sh/nvm#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file) also says about how to do this but the code they provided for `.zshrc` (`.bashrc`) didn't work in my macos as of 14 Jan 2025. BUT BELOW CODE WORKS QUITE WELL WELL (tested on MacOS). I put below code in `~/.bash_nvm` and imported in file `~/.zsh` via my bash `include` function for safe sourcing of this file via `include ~/.bash_nvm`.*
 
-In your `.bashrc` file you can add a statement `include ~/.bash_nvm`  and put below code in `~/.bash_nvm`:
+In your `.bashrc` file you can add a statement `include ~/.bash_nvm`.
+
+And put below code in `~/.bash_nvm`:
 
 ```bash
 nvmUse () {
