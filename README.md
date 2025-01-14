@@ -41,7 +41,7 @@ nvm use default
 
 FYI: You can simply write 12 or 14 for corresonding node versions as well as I have done in this current demo.
 
-**What to do to make autoswitching seamlessly?**
+## What to do to make autoswitching seamlessly?
 
 *Note: [Official documentation of NVM](https://github.com/nvm-sh/nvm#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file) also says about how to do this but the code they provided for `.zshrc` (`.bashrc`) didn't work in my macos as of 14 Jan 2025.*
 
