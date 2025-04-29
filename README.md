@@ -7,24 +7,25 @@ Inspiration: [here](https://stackoverflow.com/questions/57110542/how-to-write-a-
 ## Commands
 
 ```bash
+# Insatll node LTS (Long-term Support)
+nvm install --lts
+
 # Install latest node version
 nvm install node
 
+# Insatll specifc version
+nvm install 22.13.0
+nvm install 20.12.0
+nvm install 16.14.2
+nvm install 12
+nvm install 14
 
-# Insatll node LTS (Long-term Support)
-nvm install --lts
 
 # List of installed node versions
 nvm list
 
-# Some node versions I use
-# 22.13.0
-# 20.12.0
-# 16.14.2
 
-
-
-# Set default version of nvm
+# Set default node version
 nvm alias default v22.13.0	# 14 Jan 2025 (latest - using this on macos)
 # nvm alias default 20.12.0	# (older)
 
@@ -39,7 +40,19 @@ nvm use
 nvm use default
 ```
 
-FYI: You can simply write 12 or 14 for corresonding node versions as well as I have done in this current demo.
+## Update npm version via `nvm`
+
+[Source](https://stackoverflow.com/a/33575448)
+
+```sh
+# Install latest npm version
+nvm install-latest-npm
+# or
+nvm install --latest-npm
+
+# Install specific npm version
+npm install -g npm@8.2.0
+```
 
 ## What to do to make autoswitching seamlessly?
 
