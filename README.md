@@ -23,11 +23,8 @@ nvm use
 ### General usage
 
 ```bash
-# Insatll node LTS (Long-term Support)
+# ✅ Insatll node LTS (Long-term Support)
 nvm install --lts
-
-# Install latest version (node is an alias for `latest`)
-nvm install node
 
 # Insatll specifc version
 nvm install 22.13.0
@@ -35,6 +32,12 @@ nvm install 20.12.0
 nvm install 16.14.2
 nvm install 12
 nvm install 14
+
+# Install `latest` version
+# *[PLEASE DO NOT USE `latest` FOR PRODUCTION PROJECTS.]*
+nvm install latest
+# or (`node` is an alias for `latest`)
+nvm install node
 
 
 # List of installed node versions
