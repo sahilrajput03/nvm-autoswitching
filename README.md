@@ -52,6 +52,12 @@ nvm alias default v22.13.0	# 14 Jan 2025 (latest - using this on macos)
 nvm use default
 ```
 
+## Remove/Uninstall a particular node version
+
+```bash
+nvm uninstall <NODE_VERSION>
+```
+
 ## Update npm version via `nvm`
 
 [Source](https://stackoverflow.com/a/33575448)
