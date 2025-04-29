@@ -25,7 +25,7 @@ nvm use
 # Insatll node LTS (Long-term Support)
 nvm install --lts
 
-# Install latest node version
+# Install latest version (node is an alias for `latest`)
 nvm install node
 
 # Insatll specifc version
