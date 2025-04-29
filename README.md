@@ -6,6 +6,21 @@ Inspiration: [here](https://stackoverflow.com/questions/57110542/how-to-write-a-
 
 ## Commands
 
+### Using .nvmrc
+
+```sh
+## Creating a `.nvmrc` file in current working directory
+node -v > .nvmrc
+
+## Install node version mentioned in .nvmrc file in current working directory
+nvm install
+
+## Switch to Node version mentioned in .nvmrc in current working directory
+nvm use
+```
+
+### General usage
+
 ```bash
 # Insatll node LTS (Long-term Support)
 nvm install --lts
@@ -31,19 +46,6 @@ nvm alias default v22.13.0	# 14 Jan 2025 (latest - using this on macos)
 
 # ❤️ Switch to defautl node version set in nvm (`check by nvm list | grep default`) in the current shell session
 nvm use default
-```
-
-## Using .nvmrc
-
-```sh
-## Creating a `.nvmrc` file in current working directory
-node -v > .nvmrc
-
-## Install node version mentioned in .nvmrc file in current working directory
-nvm install
-
-## Switch to Node version mentioned in .nvmrc in current working directory
-nvm use
 ```
 
 ## Update npm version via `nvm`
