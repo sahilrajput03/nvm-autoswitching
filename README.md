@@ -30,13 +30,16 @@ nvm alias default v22.13.0	# 14 Jan 2025 (latest - using this on macos)
 # nvm alias default 20.12.0	# (older)
 
 
-## Creating a `.nvmrc` file
+## Creating a `.nvmrc` file in current working directory
 node -v > .nvmrc
 
-## ❤️ Switch to node version as mentioned in .nvmrc file in current working directory
+## Install node version mentioned in .nvmrc file in current working directory
+nvm install
+
+## Switch to Node version mentioned in .nvmrc in current working directory
 nvm use
 
-# Use defautl node version set in nvm (`check by nvm list | grep default`) in the current shell session
+# Switch to defautl node version set in nvm (`check by nvm list | grep default`) in the current shell session
 nvm use default
 ```
 
