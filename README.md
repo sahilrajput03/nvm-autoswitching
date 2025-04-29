@@ -14,7 +14,7 @@ node -v > .nvmrc
 
 ## Install node version mentioned in .nvmrc file in current working directory
 nvm install
-# Note: If there is no .nvmrc file then you get errro - "No .nvmrc file found"
+# Note: If there is no .nvmrc file then you get error - "No .nvmrc file found"
 
 ## Switch to Node version mentioned in .nvmrc in current working directory
 nvm use
