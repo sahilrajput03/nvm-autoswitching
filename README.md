@@ -90,8 +90,7 @@ nvmUse
 function cd {
     # actually change the directory with all args passed to the function
     builtin cd "$@"
-
-	nvmUse
+    nvmUse
 }
 ```
 
