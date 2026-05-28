@@ -50,6 +50,10 @@ nvm alias default v22.13.0	# 14 Jan 2025 (latest - using this on macos)
 
 # ❤️ Switch to default node version set in nvm (`check by nvm list | grep default`) in the current shell session
 nvm use default
+
+
+# Updating ver. 22.13.0 to 22.22.3
+nvm install 22 && nvm alias default 22.22.3
 ```
 
 ## Remove/Uninstall a particular node version
